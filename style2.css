@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+}
+h1{
+    margin-left: 50px;
+    padding-top:30px ;
+    color: palevioletred;
+}
+
+nav li{
+    
+    float: right;
+    list-style-type: none;
+	background-color: brown;
+	margin-top: -35px;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+}
+
+nav a{
+    float: right;
+    margin-top: -35px;
+}
+
+ul {
+    margin:10px;
+}
+
+li{
+    margin: 10px;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 6px 10px;
+    text-decoration: none;
+    margin-top: 0px;
+    
+}
+
+.head{
+    margin-top: 50px;
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-size:3000px auto;
+    text-align: center;
+    padding: 200px;
+}
+
+.about{
+    padding: 80px;
+    background-color: white;
+}
+
+.sub-about{
+    width: 500px;
+}
+
+.image{
+    float: right;
+    padding-top: 0px;
+    margin-top: -200px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 10px 50px;
+    height: 250px;
+}
+
+.main{
+    padding: 10px 10px 200px 10px;
+    background-color: white;
+}
+
+.sub-main{
+    text-align: center;
+    padding-bottom:5px ;
+}
+.image1{
+    float: left;
+    padding-top: 0px;
+    margin-top: -200px;
+    margin-right: 200px;
+    
+    border-radius: 10px 50px;
+    height: 100px;
+}
+
+.mid{
+    float: right;
+    height: 10px;
+    width: 500px;
+    padding-bottom:200px;
+    margin-bottom: 500px;
+}
+
+.dashboard{
+    
+    text-align: center;
+    padding: 80px;
+    background-color:hsl(0, 0%, 88%);
+}
+
+.image2{
+    width: 500px;
+    border-radius: 100px;
+}
+
+.reviews{
+    padding: 80px;
+    background-color:white;
+    overflow: hidden;
+    text-align: center;
+   
+}
+
+.sub-reviews{
+    float: right;
+    width: 300px;
+    margin-right: 50px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+}
+
+.img{
+    border-radius: 500px;
+}
+
+.pname{
+    font-weight: bold;
+}
+
+.rev{
+    padding: 80px;
+    width: 500px;
+    margin-left: 350px;
+}
+
+.sub-rev{
+    font-weight: bold;
+}
+
+.span{
+    color: palevioletred;
+}
+
+#sign{
+    background-color: yellow;
+    margin-bottom: 100px;
+}
+
+.register{
+    background-color: black;
+    color: white;
+    padding:0px 100px 0px 100px;
+    width:1400px;
+    float: left;
+    
+}
+
+.sub-register{
+    width: 1000px;
+}
+
+form{
+    float: left;
+    width: 100px;
+}
+
+.container{
+    background-color: black;
+    opacity: transparent;
+    color: white;
+    max-width: 2000px;
+    padding: 10px 100px 10px 100px;
+    opacity: 0.9;
+    /* background-image: url('mac.jpeg'); */
+    
+    background-repeat: no-repeat;
+    /* margin: 0px;
+    margin-right: -50px; */ 
+}
+
+input, textarea{
+    background-color: lightgrey;
+    
+}
+
+
+
+footer li{
+    float: left;
+    list-style-type: none;
+}
+
+.foot{
+    text-align: center;
+    margin:0px ;
+}
+
+#heart{
+    color: red;
+}
+
+#li{
+    float: right;
+    margin-bottom: 80px;
+    padding-bottom: 100px;
+    
+}
+
+.bottom{
+    background-color: pink;
+    height: 100px;
+    
+}
+
+.button{
+    width: 300px;
+    background-color: darkorchid;
+}
