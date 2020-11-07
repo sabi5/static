@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <!-- jQuery library -->
@@ -18,22 +18,28 @@
         <link rel="stylesheet" href="style2.css">
     </head>
     <body>
+        <!-- HEADER SECTION -->
+
         <header>
             <h1 class="span">
                 oslo
             </h1>
             <nav>
+                <a href="#"><button id="shadow" class="bttn"> SIGN UP</button></a>
                 <ul>
                     <li>
-                        <a href="">Features</a>
+                        <a href="#">Features</a>
                     </li>
                     <li>
-                        <a href="">Reviews</a>
+                        <a href="#">Reviews</a>
                     </li>
-                    <a href=""><button class="btn btn-primary"> SIGN UP</button></a>
                 </ul>
             </nav>
         </header>
+
+         <!-- HEADER SECTION END-->
+
+         <!-- HEAD SECTION -->
 
         <section>
             <div class="head">
@@ -43,11 +49,16 @@
                 <p>
                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                 </p>
-                <button class="btn btn-info">Learn More</button>
+                <button class="bttn" id="bttn">Learn More</button>
             </div>
         </section>
-        
+
+        <!-- HEAD SECTION END-->
+
+        <!-- ABOUT SECTION-->
+
         <section class="about">
+            <div class="radius2"></div>
             <div class="sub-about">
                 <p class="sub-rev">
                     01 // ABOUT
@@ -58,10 +69,15 @@
                 <p>
                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                 </p>
-                <button class="btn btn-danger">Get Started</button>
+                <button id="bt" class="bttn">Get Started</button>
             </div>
-            <img class="image" src="laptop.jpeg" alt="Not Found">
+            <img class="image" src="laptop.jpg" alt="Not Found">
         </section>
+
+        <!-- ABOUT SECTION END-->
+
+        <!-- MAIN SECTION-->
+
         <section class="main">
             <p class="sub-rev sub-main">
                 02 // Features
@@ -69,7 +85,9 @@
             <h3 class="span sub-main">
                 Be on the same page
             </h3>
+            
             <div class="sub-reviews">
+                <img src="stay.png" alt="Not Found" class="feature">
                 <h4>
                     Stay Organized
                 </h4>
@@ -78,6 +96,7 @@
                 </p>
             </div>
             <div class="sub-reviews">
+                <img src="productive.png" alt="Not Found" class="feature">
                 <h4>
                     Be more productive
                 </h4>
@@ -86,6 +105,7 @@
                 </p>
             </div>
             <div class="sub-reviews">
+                <img src="collaborate.png" alt="Not Found" class="feature">
                 <h4>
                     Collaborate
                 </h4>
@@ -95,9 +115,13 @@
             </div>
         </section>
 
-        <!-- <section>
+        <!-- MAIN SECTION END-->
+
+        <!--SUB-MAIN SECTION-->
+
+        <section  class="main1">
             <div class="mid">
-                <h3>
+                <h3 class="span sub-main1">
                     Add structure to your daily tasks
                 </h3>
                 <h5>
@@ -112,9 +136,15 @@
                 <p >
                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                 </p>
-                <img class="image1" src="laptop.jpeg" alt="not found">
             </div>
-        </section> -->
+            <img class="image1" src="laptop.jpg" alt="not found">
+            <div class="radius"></div>
+        </section>
+
+        <!-- SUB-MAIN SECTION END-->
+
+        <!-- DASHBOARD SECTION-->
+
         <section>
             <div class="dashboard">
                 <p class="sub-rev">
@@ -124,13 +154,18 @@
                     Everything works better when it looks better
                 </h3>
                 <p>
-                    <img class="image2" src="mac.jpeg" alt="not found">
+                    <img class="image2" src="mac.png" alt="not found">
                 </p>
                 <p>
                     Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                 </p>
             </div>    
         </section>
+
+        <!-- DASHBOARD SECTION END-->
+
+        <!-- REVIEWS SECTION-->
+
         <section class="reviews">
             <div>
                 <div class="rev">
@@ -143,33 +178,33 @@
                         and trusting customers
                     </h4>
                 </div>
-                <div class="sub-reviews">
+                <div class="sub-reviews1">
                     <p>
                         Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                     </p>
-                    <img class="img" src="people.jpeg" alt="not found">
+                    <img class="img" src="people.jpg" alt="not found">
                     <span class="pname">Suzy Huller</span>
-                    <p>
+                    <p class="pdes">
                         illustrator
                     </p>
                 </div>
-                <div class="sub-reviews">
+                <div class="sub-reviews1">
                     <p>
                         Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                     </p>
-                    <img class="img" src="people.jpeg" alt="not found">
+                    <img class="img" src="people.jpg" alt="not found">
                     <span class="pname">Suzy Huller</span>
-                    <p>
+                    <p class="pdes">
                         illustrator
                     </p>
                 </div>
-                <div class="sub-reviews">
+                <div class="sub-reviews1">
                     <p>
                         Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
                     </p>
-                    <img class="img" src="people.jpeg" alt="not found">
+                    <img class="img" src="people.jpg" alt="not found">
                     <span class="pname">Suzy Huller</span>
-                    <p>
+                    <p class="pdes">
                         illustrator
                     </p>
                 </div>
@@ -178,64 +213,21 @@
 
         <section id="sign">
             <div>
-                <p class="float-left ">
-                    Did you want to be notified when we launch?  
-                </p>
-                <a class="float-right" href=""><button class="btn btn-info">SIGN UP TODAY</button></a>
+                <h4 class="notify-text ">
+                    Did you want to be notified when we launch?
+                    <a href="#"><button id="btb" class="signup">SIGN UP TODAY</button></a>  
+                </h4>
+                
             </div>
         </section>
-        <!-- <section class="register">
-            <div class="sub-register">
-                <p>
-                    05 // SIGN UP
-                </p>
-                <h3>
-                    Get creative with this revolutionary tool
-                </h3>
-                <p>
-                    Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
-                </p>
-            </div>
-            <div class="foot">
-                <form action="">
-                    <label for="name">NAME</label>
-                    <input type="text" name="name" id="name">
-                    <label for="email">EMAIL ADDRESS</label>
-                    <input type="email" name="email" id="email" required>
-                    <label for="name">MESSAGE</label>
-                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                    <button class="btn btn-success">SUBMIT</button>
-                </form>
-            </div>
-            <footer>
-                <p>
-                    oslo
-                </p>
-                <p>
-                    copyright &copy; 2020 Made with &hearts; by 
-                    <span>SABREEN SHAKEEL</span>
-                </p>
-                <ul>
-                    <li>
-                        FEATURES
-                    </li>
-                    <li>
-                        REVIEWS
-                    </li>
-                    <li>
-                        SIGN UP
-                    </li>
-                </ul>
-                <div>
-                    <i class="far fa-comment-alt">
-                    </i>
-                </div>
-            </footer>
-        </section> -->
+        <!-- REVIEWS SECTION END-->
+        
+        <!-- SIGN UP SECTION -->
+
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col1">
                         <p>
                             05 // SIGN UP
                         </p>
@@ -247,7 +239,7 @@
                         </p>
                     </div>
                     <div class="col">
-                        <form action="">
+                        <form action="task2.html">
                             <label for="name">NAME</label>
                             <input type="text" name="name" id="name">
                             <label for="email">EMAIL ADDRESS</label>
@@ -255,40 +247,46 @@
                             <label for="name">MESSAGE</label>
                             <textarea name="message" id="message" cols="30" rows="10" required></textarea>
                             
-                            <button class="button">SUBMIT</button>
+                            <button id="shadow" class="button">SUBMIT</button>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- SIGN UP SECTION END-->
+
+        <!-- FOOTER SECTION -->
         <footer>
-            <div class="row">
+            <div id="footer" class="row">
                 <div class="col">
                     <ul>
-                        <li><i class="fa fa-facebook-square" aria-hidden="true"></i></i></li>
+                        <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
                         <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
                         <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
                     </ul>
                 </div>
 
                 <div class="col">
-                    <h1 class="foot">oslo</h1>
-                    <p class="foot">
-                        copyright &copy; 2020 Made with <span id="heart">&hearts;</span> by 
-                        <span>SABREEN SHAKEEL</span>
-                    </p>
+                    <div class="foot">
+                        <h1 id="sub-foot">oslo</h1>
+                        <p>
+                            &copy; 2020 Made with <span id="heart">&hearts;</span> by 
+                            <span>SABREEN SHAKEEL</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="col">
-                    <ul id="li">
-                        <li>FEATURES</li>
-                        <li>REVIEWS</li>
-                        <li>SIGN UP</li>
+                <div class="col" >
+                    <ul id="col1">
+                        <li><a href="#">FEATURES</a></li>
+                        <li><a href="#">REVIEWS</a></li>
+                        <li><a href="#">SIGN UP</a></li>
                     </ul>
                 </div>
             </div>
         </footer>
-        <div class="bottom">
-            <!-- <i class="fa fa-comment" aria-hidden="true"></i></div> -->
+        <div class="bottom"></div>
+
+        <!-- FOOTER SECTION END-->
     </body>
 </html>

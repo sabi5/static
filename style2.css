@@ -1,26 +1,33 @@
 body{
     margin: 0;
 }
+
+header{
+   height: 70px;
+}
+
 h1{
-    margin-left: 50px;
-    padding-top:30px ;
+    padding:20px 0px 0px 100px ;
     color: palevioletred;
+    font-weight: lighter;
+    font-size: 50px;
 }
 
 nav li{
-    
     float: right;
     list-style-type: none;
-	background-color: brown;
-	margin-top: -35px;
-	padding: 0;
+	margin-top: -45px;
+	margin-right: 10px;
+	padding: 10px;
 	overflow: hidden;
-	background-color: grey;
 }
 
 nav a{
+    color: black;
     float: right;
-    margin-top: -35px;
+    margin-right: 200px;
+    margin-top: -45px;
+    
 }
 
 ul {
@@ -33,67 +40,133 @@ li{
 
 li a{
 	display: block;
-	color: white;
+	color: black;
 	text-align: center;
-	padding: 6px 10px;
     text-decoration: none;
-    margin-top: 0px;
+    margin: 0px;
     
 }
 
-.head{
-    margin-top: 50px;
-    background-image: url('download.jpeg');
-    background-repeat: no-repeat;
-    background-size:3000px auto;
+.bttn{
+    background-color: hotpink;
+    border: 1px solid hotpink;
+    border-radius: 40px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+}
+
+#bttn{
+    color: hotpink;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid hotpink;
+    /* border: 1px solid; */
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#shadow{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#bt{
+    border: 1px solid hotpink;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#btb{
+    border: 1px solid hotpink;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+        
+}
+
+.head {            
+    background: linear-gradient(rgba(235, 18, 119, 0.5), rgb(226, 26, 176, 0.5)), url('laptop.jpg') no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
     text-align: center;
+    margin-top: 50px;
     padding: 200px;
+    color: white;
+    position: relative;
+    margin-bottom: -20px;
 }
 
 .about{
-    padding: 80px;
+    padding: 100px 0px 500px 200px;
     background-color: white;
+    height: 500px;
 }
 
 .sub-about{
-    width: 500px;
+    width: 350px;
 }
 
 .image{
     float: right;
-    padding-top: 0px;
-    margin-top: -200px;
-    margin-right: 20px;
+    margin-top: -500px;
+    margin-right: 100px;
     border: 2px solid black;
     border-radius: 10px 50px;
     height: 250px;
+    border: 1px solid;
+    /* padding: 10px; */
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .main{
     padding: 10px 10px 200px 10px;
     background-color: white;
+    height: 500px;
 }
 
 .sub-main{
     text-align: center;
-    padding-bottom:5px ;
+    padding-bottom: 5px ;
+   
 }
+
 .image1{
     float: left;
-    padding-top: 0px;
-    margin-top: -200px;
-    margin-right: 200px;
-    
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 50px;
     border-radius: 10px 50px;
-    height: 100px;
+    height: 250px;
+    width: 400px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+   
 }
 
 .mid{
     float: right;
-    height: 10px;
+    height: 100px;
     width: 500px;
-    padding-bottom:200px;
-    margin-bottom: 500px;
+}
+
+.main1{
+    padding: 10px 10px 200px 10px;
+    background-color: white;
+    height: 500px;
+    margin-right: 250px;
+    font-weight: lighter;
+}
+
+.sub-main1{
+    text-align: justify;
+    padding: 15px ;
+   
 }
 
 .dashboard{
@@ -106,10 +179,20 @@ li a{
 .image2{
     width: 500px;
     border-radius: 100px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+   
+}
+
+.feature{
+    padding-left: 100px;
+    margin-bottom: 60px;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .reviews{
-    padding: 80px;
+    padding: 50px;
     background-color:white;
     overflow: hidden;
     text-align: center;
@@ -117,25 +200,37 @@ li a{
 }
 
 .sub-reviews{
-    float: right;
+    float: left;
     width: 300px;
-    margin-right: 50px;
-    border: 3px solid #ccc;
-    border-radius: 10px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-top: 35px;
+    padding-top: 20px ;
 }
 
 .img{
     border-radius: 500px;
+    height: 50px;
+    width: 100px;
+    margin: 0px 50px;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .pname{
     font-weight: bold;
+    margin-left: 50px;
+}
+
+.pdes{
+    margin-left: 60px;
 }
 
 .rev{
     padding: 80px;
     width: 500px;
     margin-left: 350px;
+    font-weight: lighter;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .sub-rev{
@@ -144,29 +239,53 @@ li a{
 
 .span{
     color: palevioletred;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.sub-reviews1{
+    float: left;
+    width: 300px;
+    margin-left: 100px;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    text-align: justify;
+    margin-top: 35px;
+    padding: 50px ;
+    
+    box-shadow: 5px 10px 18px #888888;
 }
 
 #sign{
-    background-color: yellow;
-    margin-bottom: 100px;
-}
-
-.register{
-    background-color: black;
-    color: white;
-    padding:0px 100px 0px 100px;
-    width:1400px;
-    float: left;
+    background-color: rgb(240, 25, 211);
+    height: 150px;
     
 }
 
-.sub-register{
-    width: 1000px;
+.notify-text{
+    background: linear-gradient(rgba(245, 19, 188, 0.5), rgba(241, 238, 20, 0.5));
+    padding: 50px 100px 0px 100px;
+    height: 150px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.signup{
+    margin: 0px 0px 0px 100px;
+    background-color: white;
+    border-radius: 40px;
+    width: 150px;
+    padding: 10px;
+    color: hotpink;
+    font-size: medium;
+    
 }
 
 form{
     float: left;
-    width: 100px;
+    width: 500px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .container{
@@ -176,39 +295,78 @@ form{
     max-width: 2000px;
     padding: 10px 100px 10px 100px;
     opacity: 0.9;
-    /* background-image: url('mac.jpeg'); */
-    
     background-repeat: no-repeat;
-    /* margin: 0px;
-    margin-right: -50px; */ 
+    background: linear-gradient(rgba(8, 8, 8, 0.5), rgba(12, 11, 12, 0.945)), url('laptop.jpg') no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.row{
+    padding: 100px 30px 500px 200px;
+    height: 500px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.col1{
+    width: 400px;
+    padding: 0px 30px;
+    
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+label{
+    width: 300px;
 }
 
 input, textarea{
     background-color: lightgrey;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
     
 }
 
+.button{
+    width: 300px;
+    background-color: hotpink;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid hotpink;
+    color: white;
 
+}
+
+#footer{
+    height: 200px;
+    margin: -200px 0px -200px -200px;
+    padding-top: 300px;
+}
+
+.col{
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
 
 footer li{
     float: left;
     list-style-type: none;
+    left: -15%;
 }
 
 .foot{
     text-align: center;
-    margin:0px ;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    /* width: 350px; */
 }
 
 #heart{
     color: red;
-}
-
-#li{
-    float: right;
-    margin-bottom: 80px;
-    padding-bottom: 100px;
-    
 }
 
 .bottom{
@@ -217,7 +375,41 @@ footer li{
     
 }
 
-.button{
-    width: 300px;
-    background-color: darkorchid;
+.radius{
+    border: 5px solid palevioletred;
+    padding-top: 0px; 
+    margin-top: -200px; 
+    margin-right: 200px;
+    width: 500px;
+    border-radius: 100px 50px; 
+    height: 200px; 
+    z-index: 1;
+    position: absolute;
+    top: 320%;
+    
+
+}
+
+.radius2{
+    border: 5px solid palevioletred;
+    float: right; 
+    padding-top: 0px; 
+    margin-right: 70px;
+    margin-bottom: 300px;
+    padding-bottom: 100px;
+    width: 500px;
+    border-radius: 100px 50px; 
+    height: 250px; 
+    z-index: 1;
+    position: relative;
+
+}
+
+#col1{
+    float: right;
+    width: 500px;
+}
+
+#sub-foot{
+    margin-right: 60px;
 }
